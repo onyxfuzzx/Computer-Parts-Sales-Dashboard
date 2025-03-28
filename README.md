@@ -18,6 +18,32 @@ The Excel file contains 4 sheets:
 3. **Sheet8**: Sales by seller with grand total
 4. **Data**: Raw transaction data with seller, region, item, and sale amount
 
+## Sheet Descriptions
+
+### Sheet5: Regional Sales
+- Shows percentage distribution of sales across 4 regions
+- Contains formulas calculating:
+  - Direct percentage (=B2, =B3, etc.)
+  - Complement percentage (=1-C2, etc.)
+  - Sum verification (=SUM(C2,D2), etc.)
+
+### Sheet8: Seller Performance
+- Lists 7 sellers with their normalized sales contributions
+- Includes Grand Total that sums to 1 (normalized)
+
+### Data Sheet
+- Contains 100+ rows of transactional data with:
+  - Seller names (8 unique sellers)
+  - Regions (east, north, south, west)
+  - Items sold (Mouse, Keyboard, Printer, etc.)
+  - Sale amounts (from 100 to 1000)
+  
+## Formulas Used
+
+- Percentage calculations: `=B2`, `=B3`, etc.
+- Complement calculations: `=1-C2`, etc.
+- Verification sums: `=SUM(C2,D2)`, etc.
+
 ## Usage
 
 1. Clone this repository
