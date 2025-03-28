@@ -18,6 +18,10 @@ The Excel file contains 4 sheets:
 3. **Sheet8**: Sales by seller with grand total
 4. **Data**: Raw transaction data with seller, region, item, and sale amount
 
+## Dashboard Overview
+![image](https://github.com/user-attachments/assets/fcce4c83-d7f6-4986-a96b-611cfea1be18)
+
+
 ## Sheet Descriptions
 
 ### Sheet5: Regional Sales
